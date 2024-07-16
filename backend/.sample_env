@@ -1,0 +1,20 @@
+PORT = 8080
+
+MONGO_URL = YOUR_MONGO_URL
+
+JWT_SECRET = YOUR_JWT_SECRET
+JWT_EXPIRES = 3d
+
+MONGO_DB_ID = Please_Enter_Your_Mongo_DB_ID_After_Registering
+
+PORTFOLIO_URL = Your_Main_portfolio_URL or you can use http://localhost:5173 while it is not hosted 
+DASHBOARD_URL = http://localhost:5173
+
+#gmail credentials
+GMAIL_EMAIL= Your_Sample_Email_For_Forgot_password_Link
+GMAIL_PASSWORD= Your_Gmail_Password
+
+#for cloudinary
+CLOUD_NAME = Your_Cloudinary_name
+CLOUD_API_KEY = Your_Cloudinary_Id
+CLOUD_API_SECRET = Your_Cloudinary_Secret
