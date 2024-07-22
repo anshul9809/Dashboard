@@ -10,6 +10,8 @@ const cloudinary = require("cloudinary");
 
 const app = express();
 
+console.log("Dashborard url is ", process.env.DASHBOARD_URL);
+
 app.use(
     cors({
       origin: [process.env.DASHBOARD_URL],
@@ -52,5 +54,4 @@ app.listen(port, (err)=>{
     }
     console.log(`Server is running at port ${port}`);
     console.log("portfolio url is ", process.env.PORTFOLIO_URL);
-    console.log("Dashborard url is ", process.env.DASHBOARD_URL);
 });
